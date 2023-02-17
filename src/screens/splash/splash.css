@@ -1,0 +1,13 @@
+.splashGetStarted {
+  border: 1px solid gray;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.4s ease;
+}
+
+.splashGetStarted:hover {
+  border: 1px solid rgb(5, 226, 226);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
