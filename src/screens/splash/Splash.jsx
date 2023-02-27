@@ -17,7 +17,7 @@ const Swiper = () => {
       {/* overlay div */}
       <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,.7)]" />
       {/* header */}
-      <div className="absolute w-full h-full top-0  flex justify-between pt-[1em] pl-[2em] pr-[2em]">
+      <div className="absolute w-full h-full top-0  flex justify-between pt-[1em] pl-[10px]  md:pl-[2em] pr-[1px] md:pr-[2em]">
         <div className="text-white text-3xl font-bold">
           <h1>
             V-<span className="text-emerald-400">RATE</span>{" "}
@@ -27,10 +27,10 @@ const Swiper = () => {
           <SiAlltrails />
         </div>
       </div>
-      <div className="absolute  h-full top-0 flex flex-col justify-center items-left ml-[40%] text-white">
-        <div className="flex flex-col text-left justify-start items-start mb-[2em]">
+      <div className="absolute h-full top-0 flex flex-col justify-center items-center md:items-left ml-[1%] md:ml-[40%] text-white">
+        <div className="flex flex-col text-center justify-center items-center md:text-left  md:justify-start md:items-start mb-[2em]">
           <h1
-            className="text-8xl mb-[10px]"
+            className=" text-3xl md:text-8xl mb-[10px] text-center"
             style={{ fontWeight: "400", letterSpacing: "16px" }}
           >
             V-SHARE
