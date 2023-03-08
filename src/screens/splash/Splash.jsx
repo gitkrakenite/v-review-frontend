@@ -27,8 +27,8 @@ const Swiper = () => {
           <SiAlltrails />
         </div>
       </div>
-      <div className="absolute h-full top-0 flex flex-col justify-center items-center md:items-left ml-[1%] md:ml-[40%] text-white">
-        <div className="flex flex-col text-center justify-center items-center md:text-left  md:justify-start md:items-start mb-[2em]">
+      <div className="absolute h-full top-0 flex flex-col justify-center md:items-left ml-[1%] md:ml-[40%] text-white">
+        <div className="flex flex-col text-right justify-center items-center md:text-left  md:justify-start md:items-start mb-[2em] ">
           <h1
             className=" text-3xl md:text-8xl mb-[10px] text-center"
             style={{ fontWeight: "400", letterSpacing: "16px" }}
@@ -43,14 +43,14 @@ const Swiper = () => {
           </h2>
         </div>
         <div
-          className="flex flex-col justify-start items-start"
-          style={{ lineHeight: "1.8em" }}
+          className="flex flex-col justify-start items-start "
+          style={{ lineHeight: "2em" }}
         >
-          <p className="text-zinc-300 text-base">Review modern services</p>
-          <p className="text-zinc-300 text-base">and help people find the</p>
-          <p className="text-zinc-300 text-base">best services out there</p>
-          <p className="text-zinc-300 text-base">share your experience with</p>
-          <p className="text-zinc-300 text-base">
+          <p className="text-zinc-300 text-lg">Review modern services</p>
+          <p className="text-zinc-300 text-lg">and help people find the</p>
+          <p className="text-zinc-300 text-lg">best services out there</p>
+          <p className="text-zinc-300 text-lg">share your experience with</p>
+          <p className="text-zinc-300 text-lg">
             the community without any fear
           </p>
 
